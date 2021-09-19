@@ -5,15 +5,11 @@
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rollup -c",
-    "prepare": "husky install"
+    "build": "rollup -c"
   },
   "author": "João Mota",
   "license": "ISC",
@@ -31,12 +27,10 @@
     "autoprefixer": "^10.3.4",
     "babel-loader": "^8.2.2",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.25.2",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "postcss": "^8.3.6",
-    "prettier": "2.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.56.3",
