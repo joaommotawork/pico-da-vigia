@@ -1,0 +1,22 @@
+{
+	"name": "pico-da-vigia",
+	"version": "1.0.0",
+	"description": "Pico Da Vigia Monorepo",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/joaommotawork/pico-da-vigia.git"
+	},
+	"author": "João Mota",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/joaommotawork/pico-da-vigia/issues"
+	},
+	"homepage": "https://github.com/joaommotawork/pico-da-vigia#readme",
+	"workspaces": [
+		"./packages/*"
+	]
+}
