@@ -1,5 +1,6 @@
 import "tailwindcss/tailwind.css";
 import type { AppProps } from "next/app";
+import { appWithTranslation } from "next-i18next";
 import { Provider } from "react-redux";
 import { store } from "../src/app/store";
 
@@ -10,4 +11,5 @@ function MyApp({ Component, pageProps }: AppProps) {
     </Provider>
   );
 }
-export default MyApp;
+
+export default appWithTranslation(MyApp);
