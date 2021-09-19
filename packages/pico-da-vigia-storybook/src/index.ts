@@ -1,3 +1,3 @@
-import 'tailwindcss/tailwind.css'
+import "tailwindcss/tailwind.css";
 
-export * from './atoms/Button/Button'
+export * from "./atoms/Button/Button";

@@ -7,7 +7,7 @@ export default {
   title: "atoms/Button",
   component: Button,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    backgroundColor: { control: "color" },
   },
 } as Meta;
 
@@ -19,4 +19,4 @@ export const Primary = Template.bind({});
 Primary.args = { label: "Primary 😃", size: "large" };
 
 export const Secondary = Template.bind({});
-Secondary.args = { ...Primary.args, primary: false, label: "Secondary 😇"
+Secondary.args = { ...Primary.args, primary: false, label: "Secondary 😇" };
